@@ -9,14 +9,15 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <div>
-      <p className="hello">hello {count}</p>
+      <p className="plugin">my plugins</p>
+      {/* <p className="hello">hello {count}</p>
       <button onClick={() => setCount(count + 1)}>
         Click me
       </button>
       <img className="img" src={require('./a.jpeg')}/>
       <Dialog/>
       <div>数学家陈景润证明了1 + 2 = {add(1, 2)}</div>
-      <Test/>
+      <Test/> */}
     </div>
   );
 }
